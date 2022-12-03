@@ -31,12 +31,12 @@ img {
 .card {
     background-color: var(--White);
     border-radius: 1.25rem;
-    width: 349px;
-    height: 540px;
+    max-width: 21.8125rem;
+    height: 33.75rem;
     padding: 1.00rem;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 1.875rem;
 }
 
 .qr-code img {
@@ -49,14 +49,14 @@ img {
     overflow-wrap: break-word;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 0 20px 0 20px;
+    gap: 1.25rem;
+    padding: 0 1.25rem 0 1.25rem;
 }
 
 .description p {
     color: var(--Grayish-blue);
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .description h2 {
@@ -64,5 +64,11 @@ img {
     font-weight: 700;
 }
 
-.attribution { font-size: 12px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 12px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
